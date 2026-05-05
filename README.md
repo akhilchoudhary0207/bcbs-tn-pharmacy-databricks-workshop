@@ -3,10 +3,13 @@
 Workshop materials tailored for the BCBS Tennessee **Pharmacy Analytics** team — SAS users transitioning to Databricks.
 
 ## Contents
-- `DBX_Workshop_BCBS_TN_Pharmacy_Analytics.ipynb` — hands-on Databricks notebook (Bronze → Silver → Gold, with 7 pharmacy use cases)
+- `DBX_Workshop_BCBS_TN_Pharmacy_Analytics.ipynb` — hands-on Databricks workshop notebook (Bronze → Silver → Gold pharmacy use cases, SQL-only)
+- `Reference_Best_Practices.ipynb` — companion reference notebook with Databricks best practices
+- `LICENSE.md` — Databricks license terms for the workshop materials
 - `BCBS_TN_Pharmacy_Workshop_Slides.pdf` — companion slide deck (15 slides, PDF export)
 - [Editable Google Slides version](https://docs.google.com/presentation/d/1SjYEayZECMWUNhaUyVAV8xBaPgH8vDUf70inrxyO6Ec/edit)
 - `build_notebook.py` — script that produced the notebook by reframing [bigdatavik/databricksfirststeps](https://github.com/bigdatavik/databricksfirststeps) for the pharmacy domain
+- `strip_pyspark.py` — script that converted the workshop to SQL-only (drops PySpark cells, replaces with SQL equivalents)
 
 ## Source
 Built on top of Vik's Actuaries workshop notebook from [bigdatavik/databricksfirststeps](https://github.com/bigdatavik/databricksfirststeps/blob/main/past%20labs/DBX%20Workshop_Actuaries_11072025_answer.ipynb). Same dataset; narrative and Gold-layer use cases rewritten for BCBS TN Pharmacy Analytics.
